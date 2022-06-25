@@ -2,7 +2,6 @@
     width: 90%;
     margin: auto;
 }
-
 .section {
     min-height: 100vh;
 }
@@ -10,24 +9,19 @@
     height: 40px;
     max-width: 300px;
 }
-
 .bg-custom {
     background-color: rgb(241, 241, 230);
 }
-
-.orange {
+.orange{
     color: rgb(239, 96, 44);
     font-weight: bold;
 }
-
 .nav-link {
     color: black;
 }
-
-.nav-link:hover {
+.nav-link:hover{
     color: black;
 }
-
 #landing {
     background-image: url('../img//landing.png');
     background-size: 500px 700px;
@@ -41,6 +35,51 @@ iframe {
     border: none;
     border-radius: 10px;
 }
+.hd-items{
+    display: flex;
+    gap: 50px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+}
+.hd-item img{
+border-radius: 5px;
+}
+.about{
+    
+   margin-top: 150px;
+}
+.about-con{
+display: flex;
+flex-direction: column;
+height: 400px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-color: rgba(48, 94, 174, 0.078);
+backdrop-filter:blur(5px);
+}
+.about-hd{
+    background-color: white;
+    width: 500px;
+    align-self:  flex-end;
+    padding: 50px;
+    margin-top: -150px;
+}
+.about-bdy{
+    display: flex;
+    padding: 0px 20px 0px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.abt-sec{
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    margin-right: -40px;
+}
+
 .footer {
     min-height: 30vh;
 }
+
