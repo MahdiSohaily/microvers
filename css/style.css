@@ -22,6 +22,7 @@
     background-image: url('../img//landing.png');
     background-size: 500px 700px;
     background-repeat: no-repeat;
+
     background-position: 50px bottom;
 }
 .hd-items{
@@ -67,3 +68,10 @@ backdrop-filter:blur(5px);
     background-color: white;
     margin-right: -40px;
 }
+{
+    background-position: 100px bottom;
+}
+.footer {
+    min-height: 30vh;
+}
+
