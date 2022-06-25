@@ -24,3 +24,6 @@
     background-repeat: no-repeat;
     background-position: 100px bottom;
 }
+.footer {
+    min-height: 30vh;
+}
