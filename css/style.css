@@ -1,5 +1,26 @@
-.custom-brand {
-    max-width: 300px;
-    height: 40px;
-    display: block;
+.custom-container {
+    width: 90%;
+    margin: auto;
+}
+.section {
+    height: 100vh;
+}
+.bg-custom {
+    background-color: rgb(241, 241, 230);
+}
+.orange{
+    color: rgb(239, 96, 44);
+    font-weight: bold;
+}
+.nav-link {
+    color: black;
+}
+.nav-link:hover{
+    color: black;
+}
+#landing {
+    background-image: url('../img//landing.png');
+    background-size: 400px 600px;
+    background-repeat: no-repeat;
+    background-position: 100px bottom;
 }
