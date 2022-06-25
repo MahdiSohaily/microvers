@@ -23,33 +23,42 @@
 <body>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   <main class="wrapper">
-    <div class="bg-custom">
+    <div class="bg-custom pt-5">
       <div id="landing" class=" custom-container section">
-        <nav class="navbar navbar-expand-lg py-3">
-          <!-- Brand -->
-          <a class="navbar-brand" href="#">Navbar</a>
+        <header id="header" class="fixed-top bg-white">
+          <nav id="nav-bar" class="navbar navbar-expand-lg py-3">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">
+              <img id="header-img"
+                src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+                alt="site logo" srcset="">
+            </a>
 
-          <!-- Toggler/collapsibe Button -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-          <!-- Navbar links -->
-          <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Products</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Featuers</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">How it works</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <div class="container-fluid">
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#products">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#featuers">Featuers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#news">News Letter</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#how">How it works</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+        <div class="container-fluid pt-5">
           <div class="row">
             <div class="col-lg-6"></div>
             <div class="col-lg-6 pt-5">
@@ -75,10 +84,15 @@
         </div>
       </div>
     </div>
-    <div class="section pt-5">
-      <h4 class="orange text-center">Products</h4>
-      <h1 class="text-center"> Meet Our Best Sellers</h1>
-      <div class="custom-container py-5">
+    <div id="products" class="section container-fluid pt-5">
+
+      <div class="row">
+        <div class="col-12">
+          <h4 class="orange text-center">Products</h4>
+          <h1 class="text-center"> Meet Our Best Sellers</h1>
+        </div>
+      </div>
+      <div class="custom-container pt-5">
         <div class="row">
           <div class="col-md-4">
             <div class="card" style="width:400px">
@@ -119,35 +133,89 @@
         </div>
       </div>
     </div>
-    <footer class="footer container-fluid bg-dark pt-5 ">
-       
+    <div id="featuers" class="section container-fluid pt-5 bg-custom">
+      <div class="row">
+        <div class="col-12">
+          <h4 class="orange text-center">Our Product Featuers</h4>
+          <h1 class="text-center"> You Can find out about our latest products in this video</h1>
+        </div>
+      </div>
+      <div class="custom-container  pt-5">
+        <div class="row">
+          <div class="col-12">
+            <iframe id="video"  src="https://www.youtube.com/embed/y0VTxbkt9Ks">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="news"  class="section container-fluid pt-5">
+      <div class="row">
+        <div class="col-12">
+          <h4 class="orange text-center">News Letter</h4>
+          <h1 class="text-center  px-5"> Sing up here via your email address to get the update news about our products</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="custom-container">
           <div class="row">
-            <div class="col-md-4 ">
-              <p class="orange">About us:</p> 
-              <p class="pl-3 text-white">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-              </p>
-            </div>
-          <div class="col-md-4">
-            <p class="orange">Usefull Links:</p>
-            <ul class="text-white">
-              <li><a class="text-white" href="/">Home</a></li>
-              <li><a class="text-white"href="/about">About</a></li>
-              <li><a class="text-white"href="/join-us">Join Us</a></li>
-              <li><a class="text-white"href="/contact">Contact</a></li>
-              <li><a class="text-white"href="/request-for-quotation">Request for Quotation</a></li>
-            </ul>
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-center pt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                 It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+               and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+            <div class="col-md-2"></div>
           </div>
-          <div class="col-md-4">
-            <p class="orange">Address:</p>
-            <p class="pl-3 text-white">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-            </p>
+         <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4 pt-5">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+              <div class="input-group input-group-lg mb-3">
+                <input id="email" name="email" type="email" class="form-control" placeholder="Enter Your Email">
+                <div class="input-group-append">
+                  <input id="submit" type="submit" class="form-control input-group-text" value="submit">
+                </div>
+              </div>
+              
+            </form>
           </div>
-          </div>
-        
+          <div class="col-md-4"></div>
+         </div>
+        </div>
+      </div>
+    </div>
+    <footer id="how" class="footer container-fluid bg-dark pt-5 ">
+      <div class="row">
+        <div class="col-md-4 ">
+          <p class="orange">About us:</p>
+          <p class="pl-3 text-white">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <p class="orange">Usefull Links:</p>
+          <ul class="text-white">
+            <li><a class="text-white" href="/">Home</a></li>
+            <li><a class="text-white" href="/about">About</a></li>
+            <li><a class="text-white" href="/join-us">Join Us</a></li>
+            <li><a class="text-white" href="/contact">Contact</a></li>
+            <li><a class="text-white" href="/request-for-quotation">Request for Quotation</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <p class="orange">Address:</p>
+          <p class="pl-3 text-white">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+          </p>
+        </div>
+      </div>
+      <div class="row text-center">
+        <p class=" text-white">All Rights are reserved 2022</p>
+      </div>
     </footer>
   </main>
 

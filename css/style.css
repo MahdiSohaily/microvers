@@ -3,7 +3,11 @@
     margin: auto;
 }
 .section {
-    height: 100vh;
+    min-height: 100vh;
+}
+#header-img {
+    height: 40px;
+    max-width: 300px;
 }
 .bg-custom {
     background-color: rgb(241, 241, 230);
@@ -23,6 +27,12 @@
     background-size: 400px 600px;
     background-repeat: no-repeat;
     background-position: 100px bottom;
+}
+iframe {
+    height: 70vh;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
 }
 .footer {
     min-height: 30vh;
