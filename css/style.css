@@ -50,7 +50,7 @@ backdrop-filter:blur(5px);
 }
 .about-hd{
     background-color: white;
-    width: 600px;
+    width: 500px;
     align-self:  flex-end;
     padding: 50px;
     margin-top: -150px;
@@ -68,9 +68,7 @@ backdrop-filter:blur(5px);
     background-color: white;
     margin-right: -40px;
 }
-{
-    background-position: 100px bottom;
-}
+
 .footer {
     min-height: 30vh;
 }
